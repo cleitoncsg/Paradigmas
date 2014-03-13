@@ -5,7 +5,7 @@ class Pessoa {
     String email;
 	
     static constraints = {
-	nome (maxSize : 10);
-	email(email: true);
+		nome (maxSize : 10);
+		email(email: true);
     }
 }
